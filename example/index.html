@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery String interpolator</title>
+</head>
+<body>
+	<h1>jQuery String interpolator</h1>
+	<h2>Regular template syntax</h2>
+	<p>Hi there {firstname}! Your last name is {lastname}"</p>
+	<p>Output: <span id="stdout"></span></p> 
+	<h2>Custom template syntax</h2>
+	<p>Hi there <%= firstname %>! Your last name is <%= lastname %></p>
+	<p>Output: <span id="customout"></span></p>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<script src="../src/jquery.interpolator.js"></script>
+	<script src="example.js"></script>
+</body>
+</html>
