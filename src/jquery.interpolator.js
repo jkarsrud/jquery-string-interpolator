@@ -1,4 +1,6 @@
 ;(function($) {
+    "use strict";
+    
     $.extend($, {
         interpolate: function(t, o, s) {
             var m = (!s) ? /{([^{}]*)}/g : s;
